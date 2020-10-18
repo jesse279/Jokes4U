@@ -1,0 +1,52 @@
+h1 {
+  background-color: #7FFFD4;
+  text-align: center;
+  color: #0000FF;
+}
+
+.page {
+  margin-left: 175px;
+  margin-right: 175px;
+  background-color: #7FFFD4;
+  color: #0000FF;
+  text-align: center;
+
+  position: relative;
+  min-height: 100vh;
+}
+
+.jokeResults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+
+.mainLogo {
+  width: 150px;
+}
+
+.pageDivider {
+  height: 3px;
+  background-color: #0000FF;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.footer-item {
+  border: 1px solid #0000FF;
+  background-color: #7FFFD4;
+  height: 200px;
+  flex: 1;
+  text-align: center;
+  color: #0000FF;
+}
